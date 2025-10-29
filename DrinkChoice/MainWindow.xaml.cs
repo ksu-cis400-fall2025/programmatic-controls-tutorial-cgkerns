@@ -24,6 +24,9 @@ namespace DrinkChoice
         {
             InitializeComponent();
             restCtrl.DataContext = new Restaurant("The Eating Food Place");
+
+            // now we can load the choices
+            restCtrl.LoadChoices();
         }
     }
 }
